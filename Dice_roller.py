@@ -26,4 +26,4 @@ while rollagain != "DONE":
     sleep(0.5)
     print(f"{total1}!")
 
-    rollagain = input("PRESS ENTER TO ROLL AGAIN OR TYPE'DONE' TO FINISH: ")
+    rollagain = input("PRESS ENTER TO ROLL AGAIN OR TYPE 'DONE' TO FINISH: ")

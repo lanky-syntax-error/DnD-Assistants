@@ -7,7 +7,9 @@ age = random.randint(15, 100)
 if race == "Wood Elf" or race == "High Elf":
     age = random.randint(15, 1500)
 elif race == "Dark Elf":
-    age == random.randint(1, 400)
+    age = random.randint(1, 400)
+elif race == "Aaracokra":
+    age = random.randint(1, 35)
 # Appearance
 appearancelist = ["Rugged", "Fair", "Scruffy", "Weedy", "Scraggly", "Polished", "Buff", "Powerful", "Impressive", "Flowery", "Delicate", "Shadowy", "Dishevelled", "Jolly"]
 appearance = random.choice(appearancelist)
